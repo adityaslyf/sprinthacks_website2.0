@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Californian FB";
+  src: url("https://db.onlinewebfonts.com/t/12c13307742d4e286b692cce7ec65307.eot");
+  src: url("https://db.onlinewebfonts.com/t/12c13307742d4e286b692cce7ec65307.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/12c13307742d4e286b692cce7ec65307.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/12c13307742d4e286b692cce7ec65307.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/12c13307742d4e286b692cce7ec65307.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/12c13307742d4e286b692cce7ec65307.svg#Californian FB")
+      format("svg");
+}
+@font-face {
+  font-family: "Harry P";
+  src: url("https://db.onlinewebfonts.com/t/181ef9a7aee45c119e68f294e8426a3a.eot");
+  src: url("https://db.onlinewebfonts.com/t/181ef9a7aee45c119e68f294e8426a3a.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/181ef9a7aee45c119e68f294e8426a3a.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/181ef9a7aee45c119e68f294e8426a3a.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/181ef9a7aee45c119e68f294e8426a3a.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/181ef9a7aee45c119e68f294e8426a3a.svg#Harry P")
+      format("svg");
+}
+@font-face {
+  font-family: "Bluu Next Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Bluu Next Bold"), url("BluuNext-Bold.woff") format("woff");
+}
+* {
+  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=26747), auto !important;
+}
+
+.font-harry {
+  font-family: "Harry P", sans-serif;
+}
+.font-californian {
+  font-family: "californian FB", sans-serif;
+}
+.font-next-blue-bold {
+  font-family: "Bluu  Next Bold" !important;
+}
+/* .backgroundimage {
+  background-image: url("./assets/sponsors/ashibh.webp");
+  background-color: black;
+  color: aqua;
+  height: 900px;
+  object-fit: contain;
+  opacity: .9;
+} */
+
+.stars-image{
+background-image: url("./assets/prizes/Rectangle282.svg");
+}
+.bgimage{
+  background-image: url(./assets//prizes/stars2-1.svg);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #16b8c4;
+  border-radius: 20px;
+  height: 100px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+body{
+  overflow-x: hidden;
+  background-color: #000;
+}
